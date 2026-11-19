@@ -1,4 +1,4 @@
-# notipo-com
+# Notipo
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,121 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-notipo-com is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://notipo.com/
+Notipo provides a platform that enables AI agents to publish content directly to WordPress sites without needing a WordPress plugin. It offers integrations with popular AI models like Claude, ChatGPT, and tools such as n8n, Zapier, and Make. Users can leverage a CLI, REST API, and MCP server to automate markdown conversion, image handling, SEO optimization, and publishing via the native WordPress REST API. The service includes a free tier, detailed documentation, and a focus on seamless AI-driven content workflows.
+
+**Areas:** AI · WordPress · Publishing · Automation · Integration
+
+## Notipo on APIs.io
+
+Everything profiled for Notipo is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/notipo-com/](https://apis.io/providers/notipo-com/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Notipo API](https://apis.io/apis/notipo-com/notipo-api/) — REST API for Notipo enabling creation of posts, sync triggers, and management of connections. Documentation at https://notipo.com/docs/api/introduction.
+- [Notipo API](https://apis.io/apis/notipo-com/notipo-com-api/) — Notipo API as documented publicly: 15 operations. Contract generated from the documentation by API Evangelist (2026-11-19); not the provider's own document.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (5)
+
+The data models the API reads and writes.
+
+- [PostApiAuthLoginRequest](https://apis.io/schemas/notipo-com/notipo-com-post-api-auth-login-request/)
+- [PostApiAuthLoginResponse](https://apis.io/schemas/notipo-com/notipo-com-post-api-auth-login-response/)
+- [PostApiPostsCreateRequest](https://apis.io/schemas/notipo-com/notipo-com-post-api-posts-create-request/)
+- [PostApiPostsRequest](https://apis.io/schemas/notipo-com/notipo-com-post-api-posts-request/)
+- [PostApiPostsResponse](https://apis.io/schemas/notipo-com/notipo-com-post-api-posts-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Notipo Com Context](https://apis.io/jsonld/notipo-com/notipo-com-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Notipo API Rules](https://apis.io/rules/notipo-com/notipo-com-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Notipo Authentication](https://apis.io/security/notipo-com/notipo-com-authentication/)
+- [Notipo Domain Security](https://apis.io/security/notipo-com/notipo-com-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Notipo Plans Pricing](https://apis.io/plans/notipo-com/notipo-com-plans-pricing/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://notipo.com/)
+- [Documentation](https://notipo.com/docs)
+- [Getting started](https://notipo.com/docs/getting-started)
+- [Blog](https://notipo.com/blog)
+- [Terms of service](https://notipo.com/terms)
+- [Privacy policy](https://notipo.com/privacy)
+
+## API Evangelist rating
+
+**Kin Score 47.5** — developing · rubric 0.28.0 · scored 2026-11-19
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 55.4 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 42.9 |
+| Access clarity | 43.0 |
+
+**Agent readiness 22.8** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 17.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/notipo-com/](https://apis.io/providers/notipo-com/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Notipo: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/notipo-com/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
